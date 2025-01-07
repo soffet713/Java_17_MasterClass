@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.web.WebView?>
+<GridPane alignment="CENTER" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.javafx.javafxapplication.MainController" fx:id="gridPane"
+          stylesheets="@styles.css">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Button text="Button One" id="button_one" fx:id="buttonOne" GridPane.rowIndex="0" GridPane.columnIndex="0"
+            onAction="#buttonOneClick"/>
+    <Button text="Button Two" id="button_two" fx:id="buttonTwo" GridPane.rowIndex="0" GridPane.columnIndex="1"
+            onAction="#buttonTwoClick"/>
+    <Button text="Button Three" id="button_three" fx:id="buttonThree" GridPane.rowIndex="0" GridPane.columnIndex="2"
+            onAction="#buttonThreeClick"/>
+    <Button text="Button Four" id="button_four" fx:id="buttonFour" GridPane.rowIndex="0" GridPane.columnIndex="3"
+            onAction="#buttonFourClick"/>
+    <Button text="Button Five" id="button_five" fx:id="buttonFive" GridPane.rowIndex="0" GridPane.columnIndex="4"
+            onAction="#buttonFiveClick"/>
+
+    <Label fx:id="welcomeText" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="5"/>
+    <RadioButton text="Choice 1" GridPane.rowIndex="3" GridPane.columnIndex="0" />
+
+    <Label text="JavaFX Effects" fx:id="effectsLabel" GridPane.rowIndex="3" GridPane.columnIndex="1"
+        onMouseEntered="#handleMouseEnter" onMouseExited="#handleMouseExit"/>
+
+    <Button text="Open..." onAction="#handleClick" GridPane.rowIndex="4" GridPane.columnIndex="0" />
+
+    <Button text="Close Application" id="exit_button" fx:id="exitButton" GridPane.rowIndex="4" GridPane.columnIndex="4"
+            GridPane.columnSpan="2" onAction="#closeApplication"/>
+
+    <Hyperlink text="https://openjfx.io/" GridPane.rowIndex="5" GridPane.columnIndex="0" onAction="#handleLinkClick"/>
+
+    <WebView fx:id="myWebView" GridPane.rowIndex="6" GridPane.columnIndex="0" GridPane.columnSpan="5" GridPane.rowSpan="3" />
+</GridPane>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import java.lang.String?>
+<GridPane alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+          fx:controller="com.javafx.controls.Controller" >
+    <Button GridPane.rowIndex="0" GridPane.columnIndex="0" text="Click Me" style="-fx-padding: 5;" >
+        <graphic>
+            <ImageView>
+                <Image url="@/toolbarButtonGraphics/general/TipOfTheDay24.gif" />
+            </ImageView>
+        </graphic>
+    </Button>
+    <Label GridPane.rowIndex="0" GridPane.columnIndex="1" wrapText="true"
+           text="This is a label." textFill="blue" style="-fx-padding: 10;" >
+        <font>
+            <Font name="Arial italic" size="12" />
+        </font>
+        <graphic>
+            <ImageView>
+                <Image url="@/toolbarButtonGraphics/general/Information24.gif" />
+            </ImageView>
+        </graphic>
+    </Label>
+
+    <fx:define>
+        <ToggleGroup fx:id="colorToggleGroup" />
+        <ToggleGroup fx:id="checkBoxToggleGroup" />
+    </fx:define>
+    <VBox GridPane.rowIndex="0" GridPane.columnIndex="2">
+        <RadioButton text="Red " toggleGroup="$colorToggleGroup" style="-fx-padding: 5;"/>
+        <RadioButton text="Blue " toggleGroup="$colorToggleGroup" selected="true" style="-fx-padding: 5;"/>
+        <RadioButton text="Green " toggleGroup="$colorToggleGroup" style="-fx-padding: 5;"/>
+    </VBox>
+
+    <VBox fx:id="petCheckboxes" GridPane.rowIndex="0" GridPane.columnIndex="3">
+        <Label text="Pet Options" style="-fx-padding: 5;">
+            <font>
+                <Font name="Arial bold" size="14" />
+            </font>
+        </Label>
+        <CheckBox text="Dog" style="-fx-padding: 5;"/>
+        <CheckBox text="Cat" style="-fx-padding: 5;"/>
+        <CheckBox text="Bird" style="-fx-padding: 5;"/>
+        <CheckBox text="Hamster" style="-fx-padding: 5;"/>
+        <CheckBox text="Goldfish" style="-fx-padding: 5;"/>
+    </VBox>
+
+    <HBox GridPane.rowIndex="0" GridPane.columnIndex="4" style="-fx-padding: 10;">
+        <ToggleButton text="Toggle Me" toggleGroup="$checkBoxToggleGroup" style="-fx-padding: 5;"/>
+        <ToggleButton text="Hello" toggleGroup="$checkBoxToggleGroup" style="-fx-padding: 5;"/>
+        <ToggleButton text="Good-Bye" toggleGroup="$checkBoxToggleGroup" style="-fx-padding: 5;"/>
+    </HBox>
+
+    <TextField GridPane.rowIndex="1" GridPane.columnIndex="0" />
+    <PasswordField GridPane.rowIndex="1" GridPane.columnIndex="1" />
+    <ComboBox GridPane.rowIndex="1" GridPane.columnIndex="2" GridPane.columnSpan="2" >
+        <items>
+            <FXCollections fx:factory="observableArrayList" >
+                <String fx:value="This is Option 1" />
+                <String fx:value="This is Option 2" />
+                <String fx:value="This is Option 3" />
+                <String fx:value="This is Option 4" />
+                <String fx:value="This is Option 5" />
+            </FXCollections>
+        </items>
+        <value>
+            <String fx:value="Select an option" />
+        </value>
+    </ComboBox>
+
+    <ChoiceBox GridPane.rowIndex="1" GridPane.columnIndex="4" >
+        <items>
+            <FXCollections fx:factory="observableArrayList" >
+                <String fx:value="cb 1" />
+                <String fx:value="cb 2" />
+                <String fx:value="cb 3" />
+                <String fx:value="cb 4" />
+                <String fx:value="cb 5" />
+            </FXCollections>
+        </items>
+    </ChoiceBox>
+
+    <Slider GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="4" min="0" max="150" snapToTicks="true"
+            style="-fx-padding: 10;" showTickLabels="true" showTickMarks="true" minorTickCount="5" />
+
+    <Spinner GridPane.rowIndex="2" GridPane.columnIndex="4" min="0" max="100" editable="true" />
+
+    <ColorPicker GridPane.rowIndex="3" GridPane.columnIndex="0" />
+    <DatePicker GridPane.rowIndex="3" GridPane.columnIndex="1" />
+
+    <Accordion GridPane.rowIndex="3" GridPane.columnIndex="2" GridPane.columnSpan="2" style="-fx-padding: 10;"
+        expandedPane="$tp3" >
+        <panes>
+            <TitledPane text="Titled Pane 1" >
+                <Label text="Label 1 in titled pane" />
+            </TitledPane>
+            <TitledPane text="Titled Pane 2" >
+                <Label text="Label 2 in titled pane" />
+            </TitledPane>
+            <TitledPane fx:id="tp3" text="Titled Pane 3" >
+                <Label text="Label 3 in titled pane" />
+            </TitledPane>
+        </panes>
+    </Accordion>
+
+</GridPane>

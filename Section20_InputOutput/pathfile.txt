@@ -1,0 +1,5 @@
+Here is some data,
+For the path file,
+just to prove,
+Using the Files class,
+and path are better!

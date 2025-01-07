@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/resources/BasicText.properties" />
+    <file url="file://$PROJECT_DIR$/resources/BasicText_en_CA.properties" />
+    <file url="file://$PROJECT_DIR$/resources/BasicText_fr_CA.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/resources/BasicText.properties" />
+      <file value="file://$PROJECT_DIR$/resources/BasicText_en_CA.properties" />
+      <file value="file://$PROJECT_DIR$/resources/BasicText_fr_CA.properties" />
+      <file value="file://$PROJECT_DIR$/resources/BasicText_ja_JP.properties" />
+      <base-name>BasicText</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>

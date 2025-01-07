@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java_17_MasterClass.iml" filepath="$PROJECT_DIR$/.idea/Java_17_MasterClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KeywordsAndExpressions/KeywordsAndExpressions.iml" filepath="$PROJECT_DIR$/KeywordsAndExpressions/KeywordsAndExpressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section05/Section05.iml" filepath="$PROJECT_DIR$/Section05/Section05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section06/Section06.iml" filepath="$PROJECT_DIR$/Section06/Section06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section07_OOP_Part01/Section07_OOP_Part01.iml" filepath="$PROJECT_DIR$/Section07_OOP_Part01/Section07_OOP_Part01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section08_OOP_Part2/Section08_OOP_Part2.iml" filepath="$PROJECT_DIR$/Section08_OOP_Part2/Section08_OOP_Part2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section09_Arrays/Section09_Arrays.iml" filepath="$PROJECT_DIR$/Section09_Arrays/Section09_Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section10_ListClasses/Section10_ListClasses.iml" filepath="$PROJECT_DIR$/Section10_ListClasses/Section10_ListClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section11_Abstraction/Section11_Abstraction.iml" filepath="$PROJECT_DIR$/Section11_Abstraction/Section11_Abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section12_Generics/Section12_Generics.iml" filepath="$PROJECT_DIR$/Section12_Generics/Section12_Generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section13_NestedClassesAndTypes/Section13_NestedClassesAndTypes.iml" filepath="$PROJECT_DIR$/Section13_NestedClassesAndTypes/Section13_NestedClassesAndTypes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section14_LambdaExpressions/Section14_LambdaExpressions.iml" filepath="$PROJECT_DIR$/Section14_LambdaExpressions/Section14_LambdaExpressions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section15_JavaCollections/Section15_JavaCollections.iml" filepath="$PROJECT_DIR$/Section15_JavaCollections/Section15_JavaCollections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section16_ImmutableFinal/Section16_ImmutableFinal.iml" filepath="$PROJECT_DIR$/Section16_ImmutableFinal/Section16_ImmutableFinal.iml" />
+    </modules>
+  </component>
+</project>

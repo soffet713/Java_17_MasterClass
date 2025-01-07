@@ -1,0 +1,11 @@
+Directory Contents: 
+E:\IntelliJ_Workspace\Java_17_MasterClass\Section20_InputOutput\public
+E:\IntelliJ_Workspace\Java_17_MasterClass\Section20_InputOutput\public\assets
+E:\IntelliJ_Workspace\Java_17_MasterClass\Section20_InputOutput\public\assets\icons
+E:\IntelliJ_Workspace\Java_17_MasterClass\Section20_InputOutput\public\assets\icons\index.txt
+E:\IntelliJ_Workspace\Java_17_MasterClass\Section20_InputOutput\public\assets\icons\indexCopy.txt
+E:\IntelliJ_Workspace\Java_17_MasterClass\Section20_InputOutput\public\assets\index.txt
+E:\IntelliJ_Workspace\Java_17_MasterClass\Section20_InputOutput\public\assets\indexCopy.txt
+E:\IntelliJ_Workspace\Java_17_MasterClass\Section20_InputOutput\public\index.txt
+E:\IntelliJ_Workspace\Java_17_MasterClass\Section20_InputOutput\public\indexCopy.txt
+Generated: 2024-08-27T23:05:18.592589400
